@@ -57,6 +57,17 @@ Overview
 4. http://mpeg.chiariglione.org/working_documents/mpeg-dash/MPEG-DASH-Tutorial.pdf
 5. http://www.cash.idv.tw/wordpress/?p=6588
 6. http://blog.sina.com.cn/s/blog_4db1790b0100srlv.html
+7. http://www.hhi.fraunhofer.de/fields-of-competence/image-processing/research-groups/multimedia-communications/advanced-mpeg-dash.html
+8. https://cs.uwaterloo.ca/~brecht/courses/854/readings/mpeg-dash-standard-ieee-mm-2011.pdf
+
+簡報
+
+1. http://www.slideshare.net/cconcolato/live-streaming-of-video-and-subtitles-with-mpegdash
+2. http://www.slideshare.net/christian.timmerer/dynamic-adaptive-streaming-over-http-dash
+3. http://www.slideshare.net/christian.timmerer/http-streaming-of-mpeg-media
+4. http://www.slideshare.net/schellkenig/dash-at-the-acm-multimedia-2011
+5. http://www.slideshare.net/christian.timmerer/an-evaluation-of-dynamic-adaptive-streaming-over-http-in-vehicular-environments
+6. http://www.slideshare.net/christian.timmerer/a-seamless-web-integration-of-adaptive-http-streaming
 
 ### 各種瀏覽器對MPEG DASH的支援狀況
 
@@ -116,6 +127,17 @@ WebSocket + getUserMedia API
 3. http://creativejs.com/2012/03/getting-started-with-getusermedia/
 4. https://github.com/ebidel/html5can/tree/master/demos/audio_streamer
 
+### MPEG DASH 支援 即時轉播
+
+1. [First Live MPEG-DASH Large Scale Demonstration](http://dashif.org/first-live-mpeg-dash-large-scale-demonstration-2/) 使用 DASH Profile: Live
+2. MPD Type 為 Dynamic, GPAC 的 MP4Box 支援問題\[[2][]\]\[[3][]\]
+
+[2]: http://sourceforge.net/projects/gpac/forums/forum/327349/topic/5116440
+"MPEG Dash: Adding support for MPD.Location"
+
+[3]: http://sourceforge.net/projects/gpac/forums/forum/327349/topic/5439022
+"Osmo4 support of dynamic Dash MPD?"
+
 ### MPEG DASH DEMO
 
 1. http://dash-mse-test.appspot.com/
@@ -133,7 +155,7 @@ WebSocket + getUserMedia API
 
 ### 相關論文
 
-1. [A Dynamic Adaptive HTTP Streaming Video Service for Google Android](http://web.it.kth.se/~maguire/DEGREE-PROJECT-REPORTS/111006-Luciano-Rubio-with-cover.pdf)
+1. [A Dynamic Adaptive HTTP Streaming Video Service for Google Android](http://web.it.kth.se/~maguire/DEGREE-PROJECT-REPORTS/111006-Luciano-Rubio-with-cover.pdf), [html version](http://dat.etsit.upm.es/~luciano/en/thesis)
 2. [Dynamic adaptive streaming over HTTP --: standards and design principles]( http://dl.acm.org/citation.cfm?id=1943572)
 3. [A VLC media player plugin enabling dynamic adaptive streaming over HTTP](http://dl.acm.org/citation.cfm?id=2072429)
 4. [A Test Bed for DASH over Featuring Session Mobility](http://www-itec.uni-klu.ac.at/bib/files/mueller_A_Test_Bed_for_DASH_featuring_Session_Mobility.pdf)
