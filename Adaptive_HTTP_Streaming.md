@@ -129,6 +129,10 @@ WebSocket + getUserMedia API
 
 ### MPEG DASH 支援 即時轉播
 
+MPD 的格式為 Dynamic 是指 MPD 中的 Segment URL 會依據 SegmentTemplate 指定的規則變化, 而 MPEG DASH Profle 為 Live( 正式
+名稱為 urn : mpeg : dash : profile : isoff-live : 2011 表示
+其封裝的格式為 ISO BMFF Live, 參考[範例](http://download.tsi.telecom-paristech.fr/gpac/DASH_CONFORMANCE/TelecomParisTech/mp4-live/mp4-live-mpd-V-NBS.mpd)
+
 1. [First Live MPEG-DASH Large Scale Demonstration](http://dashif.org/first-live-mpeg-dash-large-scale-demonstration-2/) 使用 DASH Profile: Live
 2. MPD Type 為 Dynamic, GPAC 的 MP4Box 支援問題\[[2][]\]\[[3][]\]
 
@@ -144,6 +148,7 @@ WebSocket + getUserMedia API
 2. http://www-itec.uni-klu.ac.at/dash/?page_id=1097
 3. http://lists.w3.org/Archives/Public/public-web-and-tv/2012May/0014.html
 4. http://wiki.webmproject.org/adaptive-streaming/instructions-to-playback-a-webm-dash-presentation
+5. GPAC 提供的各種 MPEG DASH Sequences [http://gpac.wp.mines-telecom.fr/2012/02/23/dash-sequences/](http://gpac.wp.mines-telecom.fr/2012/02/23/dash-sequences/)
 
 ### 相關工具
 
