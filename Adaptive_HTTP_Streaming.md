@@ -46,7 +46,7 @@ Overview
 [維基百科的介紹](http://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP)   
 [Overview of MPEG-DASH Standard](http://dashpg.com/?page_id=25)
 
-![DASH的架構](http://image.slidesharecdn.com/webmontag-dash-110503041342-phpapp01/95/slide-9-728.jpg?1304414085)   
+![DASH的架構](http://dashif.org/w/2011/11/MPEG-DASHScope.png)   
 ![DASH Data Model](http://image.slidesharecdn.com/webmontag-dash-110503041342-phpapp01/95/slide-10-728.jpg?1304414085)   
 ![DASH Segment Indexing](http://image.slidesharecdn.com/webmontag-dash-110503041342-phpapp01/95/slide-14-728.jpg?1304414085)   
 
