@@ -194,7 +194,7 @@ MPEG DASH 推廣組織提供的[工具](http://dashif.org/demos/)
 
 1. http://multimediacommunication.blogspot.tw/2010/05/http-streaming-of-mpeg-media.html
 2. http://sourceforge.net/apps/trac/matroska/wiki/DASH_Profile
-3. http://sourceforge.net/projects/gpac/forums/forum/327349/topic/5116440
+3. [透過CDN的方式來散佈MPEG DASH](http://www.slideshare.net/christian.timmerer/distributed-dash-dataset)
 4. http://sourceforge.net/apps/mediawiki/osmf.adobe/index.php?title=Customizing_HTTP_Dynamic_Streaming
 5. http://en.wikipedia.org/wiki/Helix_Universal_Server
 6. https://github.com/DDVTECH/mistlib
