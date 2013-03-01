@@ -23,9 +23,12 @@ Adaptive HTTP Streaming 簡介
 
 ![Adaptive HTTP Streaming的演進](http://image.slidesharecdn.com/webmontag-dash-110503041342-phpapp01/95/slide-6-728.jpg?1304414085)
 
-相關標準
+國際標準
 
-* [ISO: Dynamic Adaptive Streaming over HTTP](http://dashpg.com/?page_id=25)
+* [ISO MPEG Dynamic Adaptive Streaming over HTTP 的相關標準]   
+   [The lastest MPEG-DASH specification \(ISO/IEC DIS 23009-1:2\)](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=57623)   
+   [The ISO Base Media File Format specification \(ISO/IEC 14496-12\)](http://www.iso.org/iso/catalogue_detail?csnumber=51533)   
+   [The Common Encryption specification \(ISO.IEC 23001-7\)](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=60398)
 * [IETF: Apple HTTP Live Streaming](http://tools.ietf.org/html/draft-pantos-http-live-streaming-07)
 
 相關文章
@@ -40,9 +43,12 @@ Adaptive HTTP Streaming 簡介
 
 Overview
 
-![DASH的架構](http://image.slidesharecdn.com/webmontag-dash-110503041342-phpapp01/95/slide-9-728.jpg?1304414085)
-![DASH Data Model](http://image.slidesharecdn.com/webmontag-dash-110503041342-phpapp01/95/slide-10-728.jpg?1304414085)
-![DASH Segment Indexing](http://image.slidesharecdn.com/webmontag-dash-110503041342-phpapp01/95/slide-14-728.jpg?1304414085)
+[維基百科的介紹](http://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP)   
+[Overview of MPEG-DASH Standard](http://dashpg.com/?page_id=25)
+
+![DASH的架構](http://image.slidesharecdn.com/webmontag-dash-110503041342-phpapp01/95/slide-9-728.jpg?1304414085)   
+![DASH Data Model](http://image.slidesharecdn.com/webmontag-dash-110503041342-phpapp01/95/slide-10-728.jpg?1304414085)   
+![DASH Segment Indexing](http://image.slidesharecdn.com/webmontag-dash-110503041342-phpapp01/95/slide-14-728.jpg?1304414085)   
 
 MPEG DASH的推廣組織 http://dashpg.com, 其中的成員有: Microsoft, Adobe, ... 等等   
 但是 Apple 不在推廣小組中, 它有自己的標準 [HTTP Live Streaming](http://tools.ietf.org/html/draft-pantos-http-live-streaming-08)
@@ -109,7 +115,7 @@ MPEG DASH的推廣組織 http://dashpg.com, 其中的成員有: Microsoft, Adobe
    https://groups.google.com/a/webmproject.org/group/webm-discuss/browse_thread/thread/7d2d1faeb2832b94   
    [Instructions to Playback a WebM DASH Presentation](https://sites.google.com/a/webmproject.org/wiki/adaptive-streaming/instructions-to-playback-a-webm-dash-presentation)
 
-### HTML5 相關標準
+### HTML5 與MPEG DASH相關的標準
 
 MediaSource Extensions API
 
@@ -161,6 +167,10 @@ MPEG DASH 推廣組織提供的[工具](http://dashif.org/demos/)
 4. [DASHEncoder](http://www-itec.uni-klu.ac.at/dash/?page_id=282)
 5. [MP4BOX](http://gpac.wp.mines-telecom.fr/player/features/dash/)
 
+### MPEG DASH for H.264 
+
+
+
 ### 相關論文
 
 1. [A Dynamic Adaptive HTTP Streaming Video Service for Google Android](http://web.it.kth.se/~maguire/DEGREE-PROJECT-REPORTS/111006-Luciano-Rubio-with-cover.pdf), [html version](http://dat.etsit.upm.es/~luciano/en/thesis)
@@ -185,7 +195,7 @@ MPEG DASH 推廣組織提供的[工具](http://dashif.org/demos/)
 1. http://www.html5rocks.com/en/tutorials/webgl/typed_arrays/?redirect_from_locale=pt
 2. http://sourceforge.net/apps/trac/matroska/wiki/DASH_Profile
 3. http://sourceforge.net/projects/gpac/forums/forum/327349/topic/5116440
-4. http://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP
+4. 
 5. http://en.wikipedia.org/wiki/Helix_Universal_Server
 6. https://github.com/DDVTECH/mistlib
 7. http://sourceforge.net/apps/mediawiki/osmf.adobe/index.php?title=Customizing_HTTP_Dynamic_Streaming
