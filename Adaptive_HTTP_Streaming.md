@@ -29,7 +29,7 @@ Adaptive HTTP Streaming 簡介
    [The lastest MPEG-DASH specification \(ISO/IEC DIS 23009-1:2\)](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=57623)   
    [The ISO Base Media File Format specification \(ISO/IEC 14496-12\)](http://www.iso.org/iso/catalogue_detail?csnumber=51533)   
    [The Common Encryption specification \(ISO.IEC 23001-7\)](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=60398)
-* [IETF: Apple HTTP Live Streaming](http://tools.ietf.org/html/draft-pantos-http-live-streaming-07)
+* IETF: HTTP Live Streaming  \[[draft-pantos-http-live-streaming][]\]
 
 相關文章
 
@@ -51,7 +51,7 @@ Overview
 ![DASH Segment Indexing](http://image.slidesharecdn.com/webmontag-dash-110503041342-phpapp01/95/slide-14-728.jpg?1304414085)   
 
 MPEG DASH的推廣組織 http://dashpg.com, 其中的成員有: Microsoft, Adobe, ... 等等   
-但是 Apple 不在推廣小組中, 它有自己的標準 [HTTP Live Streaming](http://tools.ietf.org/html/draft-pantos-http-live-streaming-08)
+但是 Apple 不在推廣小組中, 它有自己的標準\[[draft-pantos-http-live-streaming][]\]
 
 相關文章
 
@@ -186,7 +186,7 @@ MPEG DASH 推廣組織提供的[工具](http://dashif.org/demos/)
 ## HLS
 
 1. http://en.wikipedia.org/wiki/HTTP_Live_Streaming
-2. http://tools.ietf.org/html/draft-pantos-http-live-streaming-07
+2. http://tools.ietf.org/html/draft-pantos-http-live-streaming-10
 3. http://www-itec.uni-klu.ac.at/dash/?page_id=282
 4. http://www.php-oa.com/2010/12/10/http-live-streaming-hls.html
 
@@ -200,3 +200,5 @@ MPEG DASH 推廣組織提供的[工具](http://dashif.org/demos/)
 6. https://github.com/DDVTECH/mistlib
 7. http://www.html5rocks.com/en/tutorials/webgl/typed_arrays/?redirect_from_locale=pt
 
+[draft-pantos-http-live-streaming]: http://tools.ietf.org/html/draft-pantos-http-live-streaming
+"HTTP Live Streaming"
