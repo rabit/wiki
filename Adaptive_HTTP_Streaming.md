@@ -8,7 +8,9 @@ HTML5 Video
 2. http://www.longtailvideo.com/html5/
 3. http://stackoverflow.com/questions/1735933/streaming-via-rtsp-or-rtp-in-html5
 
-Adaptive HTTP Streaming 簡介
+HTTP Adaptive Streaming 簡介
+
+![HTTP Adaptive Streaming](http://image.slidesharecdn.com/dashinflash-121101132505-phpapp01/95/slide-6-1024.jpg?1351794742)
 
 1. [黃瓜切片: HTTP Live Streaming 原理簡介](http://blog.nkbit.com/2011/11/http-live-streaming.html)
 2. [HTTP Live Streaming: A Review of Apple's new streaming specification](http://issuu.com/andruby/docs/http_live_streaming_presentatino)
@@ -50,7 +52,7 @@ Overview
 ![DASH Data Model](http://image.slidesharecdn.com/webmontag-dash-110503041342-phpapp01/95/slide-10-728.jpg?1304414085)   
 ![DASH Segment Indexing](http://image.slidesharecdn.com/webmontag-dash-110503041342-phpapp01/95/slide-14-728.jpg?1304414085)   
 
-MPEG DASH的推廣組織 http://dashpg.com, 其中的成員有: Microsoft, Adobe, ... 等等   
+MPEG DASH的推廣組織 http://dashif.org, 其中的成員有: Microsoft, Adobe, ... 等等   
 但是 Apple 不在推廣小組中, 它有自己的[標準][draft-pantos-http-live-streaming]
 
 相關文章
