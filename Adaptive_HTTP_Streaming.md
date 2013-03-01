@@ -8,11 +8,12 @@ HTML5 Video
 2. http://www.longtailvideo.com/html5/
 3. http://stackoverflow.com/questions/1735933/streaming-via-rtsp-or-rtp-in-html5
 
-Adaptive HTTP Streaming
+Adaptive HTTP Streaming 簡介
 
-[簡介](http://blog.nkbit.com/2011/11/http-live-streaming.html)
+1. [黃瓜切片: HTTP Live Streaming 原理簡介](http://blog.nkbit.com/2011/11/http-live-streaming.html)
+2. [HTTP Live Streaming: A Review of Apple's new streaming specification](http://issuu.com/andruby/docs/http_live_streaming_presentatino)
 
-現有方案
+舊有方案
 
 * Apple: HTTP Live Streaming
 * MS: IIS Smooth Streaming
@@ -20,9 +21,11 @@ Adaptive HTTP Streaming
 * OPEN IPTVForum: HTTP Adaptive Streaming
 * 3GPP: Adaptive HTTP Streaming
 
-未來標準草案
+![Adaptive HTTP Streaming的演進](http://image.slidesharecdn.com/webmontag-dash-110503041342-phpapp01/95/slide-6-728.jpg?1304414085)
 
-* [ISO: Dynamic Adaptive Streaming over HTTP](http://web.cs.wpi.edu/~claypool/mmsys-2011/Day2-1_3GPPPDynamic.pdf)
+相關標準
+
+* [ISO: Dynamic Adaptive Streaming over HTTP](http://dashpg.com/?page_id=25)
 * [IETF: Apple HTTP Live Streaming](http://tools.ietf.org/html/draft-pantos-http-live-streaming-07)
 
 相關文章
@@ -37,34 +40,31 @@ Adaptive HTTP Streaming
 
 Overview
 
+![DASH的架構](http://image.slidesharecdn.com/webmontag-dash-110503041342-phpapp01/95/slide-9-728.jpg?1304414085)
+![DASH Data Model](http://image.slidesharecdn.com/webmontag-dash-110503041342-phpapp01/95/slide-10-728.jpg?1304414085)
+![DASH Segment Indexing](http://image.slidesharecdn.com/webmontag-dash-110503041342-phpapp01/95/slide-14-728.jpg?1304414085)
+
+MPEG DASH的推廣組織 http://dashpg.com, 其中的成員有: Microsoft, Adobe, ... 等等   
+但是 Apple 不在推廣小組中, 它有自己的標準 [HTTP Live Streaming](http://tools.ietf.org/html/draft-pantos-http-live-streaming-08)
+
+相關文章
+
 1. http://www.w3.org/2011/09/webtv/slides/W3C-Workshop.pdf
 2. http://dashpg.com/documents/DASHPG-MPEG-DASH-Overview.pdf
 3. [MPEG DASH: The File Format of the Future?](http://www.streamingmedia.com/Articles/ReadArticle.aspx?ArticleID=78835)
-
-推廣小組: http://dashpg.com, 成員: Microsoft, Adobe, ... 等等   
-但是 Apple 不在推廣小組中, 它有自己的標準 [HTTP Live Streaming](http://tools.ietf.org/html/draft-pantos-http-live-streaming-08)
-
-1. http://www.streaminglearningcenter.com/blogs/apple-to-adobe--microsoft-with-friends-like-you-who-needs-enemies.html
-2. http://www.streamingmedia.com/Articles/ReadArticle.aspx?ArticleID=78835
-3. http://mashable.com/2011/12/09/apple-mobile-video/
-4. http://issuu.com/andruby/docs/http_live_streaming_presentatino
-
-介紹文章
-
-1. http://dashpg.com/?page_id=25
-2. http://www.streamingmedia.com/Articles/ReadArticle.aspx?ArticleID=79041
-3. http://www.slideshare.net/christian.timmerer/dynamic-adaptive-streaming-over-http-dash
-4. http://mpeg.chiariglione.org/working_documents/mpeg-dash/MPEG-DASH-Tutorial.pdf
-5. http://www.cash.idv.tw/wordpress/?p=6588
-6. http://blog.sina.com.cn/s/blog_4db1790b0100srlv.html
-7. http://www.hhi.fraunhofer.de/fields-of-competence/image-processing/research-groups/multimedia-communications/advanced-mpeg-dash.html
-8. https://cs.uwaterloo.ca/~brecht/courses/854/readings/mpeg-dash-standard-ieee-mm-2011.pdf
+4. [Dynamic Adaptive Streaming over HTTP – Design Principles and Standards](http://web.cs.wpi.edu/~claypool/mmsys-2011/Day2-1_3GPPPDynamic.pdf)
+5. http://www.streamingmedia.com/Articles/ReadArticle.aspx?ArticleID=79041
+6. http://mpeg.chiariglione.org/working_documents/mpeg-dash/MPEG-DASH-Tutorial.pdf
+7. http://www.cash.idv.tw/wordpress/?p=6588
+8. http://blog.sina.com.cn/s/blog_4db1790b0100srlv.html
+9. http://www.hhi.fraunhofer.de/fields-of-competence/image-processing/research-groups/multimedia-communications/advanced-mpeg-dash.html
+10. https://cs.uwaterloo.ca/~brecht/courses/854/readings/mpeg-dash-standard-ieee-mm-2011.pdf
 
 簡報
 
-1. http://www.slideshare.net/cconcolato/live-streaming-of-video-and-subtitles-with-mpegdash
-2. http://www.slideshare.net/christian.timmerer/dynamic-adaptive-streaming-over-http-dash
-3. http://www.slideshare.net/christian.timmerer/http-streaming-of-mpeg-media
+1. http://www.slideshare.net/christian.timmerer/dynamic-adaptive-streaming-over-http-dash
+2. http://www.slideshare.net/christian.timmerer/http-streaming-of-mpeg-media
+3. http://www.slideshare.net/cconcolato/live-streaming-of-video-and-subtitles-with-mpegdash
 4. http://www.slideshare.net/schellkenig/dash-at-the-acm-multimedia-2011
 5. http://www.slideshare.net/christian.timmerer/an-evaluation-of-dynamic-adaptive-streaming-over-http-in-vehicular-environments
 6. http://www.slideshare.net/christian.timmerer/a-seamless-web-integration-of-adaptive-http-streaming
@@ -73,9 +73,9 @@ Overview
 
 1. Google Chrome 
 
-   Chrome plans to support DASH by using javascript library and MediaSource API \[[1][]\]
+   Chrome plans to support DASH by using javascript library and MediaSource API \[[chrome-dash][]\]
 
-   [1]: http://code.google.com/p/chromium/issues/detail?id=109652 
+   [chrome-dash]: http://code.google.com/p/chromium/issues/detail?id=109652 
    "Chrome Support MPEG-DASH"
 
    [MPEG-DASH support in Google Chrome](http://gpac.wp.mines-telecom.fr/2012/08/23/mpeg-dash-support-in-google-chrome)   
@@ -88,10 +88,11 @@ Overview
 3. Mozilla Firefox
 
    Mozilla firefox only plan to support DASH (WebM)   
-   https://wiki.mozilla.org/Platform/Roadmap   
-   https://bugzilla.mozilla.org/show_bug.cgi?id=702122   
-   https://bugzilla.mozilla.org/show_bug.cgi?id=734546   
-   [Mozilla adds DASH support (WebM) based on libdash](http://www-itec.uni-klu.ac.at/dash/?p=833)
+   [Mozilla adds DASH support (WebM) based on libdash](http://www-itec.uni-klu.ac.at/dash/?p=833)   
+   https://wiki.mozilla.org/Platform/Roadmap \[[mozilla-bug702122][]\]\[[mozilla-bug734546][]\]
+   
+   [mozilla-bug702122]: https://bugzilla.mozilla.org/show_bug.cgi?id=702122
+   [mozilla-bug734546]: https://bugzilla.mozilla.org/show_bug.cgi?id=734546
 
 4. Others
 
@@ -99,7 +100,7 @@ Overview
    http://www-itec.uni-klu.ac.at/dash/?p=243   
 
    **MP4Box**   
-   http://gpac.wp.mines-telecom.fr/2011/02/02/mp4box-fragmentation-segmentation-splitting-and-interleaving/
+   http://gpac.wp.mines-telecom.fr/mp4box/dash/
 
    **gstreamer**   
    https://bugzilla.gnome.org/show_bug.cgi?id=675625
@@ -134,12 +135,12 @@ MPD 的格式為 Dynamic 是指 MPD 中的 Segment URL 會依據 SegmentTemplate
 其封裝的格式為 ISO BMFF Live, 參考[範例](http://download.tsi.telecom-paristech.fr/gpac/DASH_CONFORMANCE/TelecomParisTech/mp4-live/mp4-live-mpd-V-NBS.mpd)
 
 1. [First Live MPEG-DASH Large Scale Demonstration](http://dashif.org/first-live-mpeg-dash-large-scale-demonstration-2/) 使用 DASH Profile: Live
-2. MPD Type 為 Dynamic, GPAC 的 MP4Box 支援問題\[[2][]\]\[[3][]\]
+2. MPD Type 為 Dynamic, GPAC 的 MP4Box 支援問題\[[dash-profile-live][]\]\[[dash-mpd-dynamic][]\]
 
-[2]: http://sourceforge.net/projects/gpac/forums/forum/327349/topic/5116440
+[dash-profile-live]: http://sourceforge.net/projects/gpac/forums/forum/327349/topic/5116440
 "MPEG Dash: Adding support for MPD.Location"
 
-[3]: http://sourceforge.net/projects/gpac/forums/forum/327349/topic/5439022
+[dash-mpd-dynamic]: http://sourceforge.net/projects/gpac/forums/forum/327349/topic/5439022
 "Osmo4 support of dynamic Dash MPD?"
 
 ### MPEG DASH DEMO
@@ -152,11 +153,13 @@ MPD 的格式為 Dynamic 是指 MPD 中的 Segment URL 會依據 SegmentTemplate
 
 ### 相關工具
 
-1. http://www.bitmovin.net/libdash/
-2. http://www-itec.uni-klu.ac.at/dash/?page_id=746
-3. [libdash](http://www-itec.uni-klu.ac.at/dash/?p=553)
-4. [MPD Validator](http://www-itec.uni-klu.ac.at/dash/?page_id=605)
-5. [DASHEncoder](http://www-itec.uni-klu.ac.at/dash/?page_id=282)
+MPEG DASH 推廣組織提供的[工具](http://dashif.org/demos/)
+
+1. [libdash](http://www.bitmovin.net/libdash/)
+2. [DASH-JS](http://www-itec.uni-klu.ac.at/dash/?page_id=746)
+3. [MPD Validator](http://www-itec.uni-klu.ac.at/dash/?page_id=605)
+4. [DASHEncoder](http://www-itec.uni-klu.ac.at/dash/?page_id=282)
+5. [MP4BOX](http://gpac.wp.mines-telecom.fr/player/features/dash/)
 
 ### 相關論文
 
@@ -167,7 +170,7 @@ MPD 的格式為 Dynamic 是指 MPD 中的 Segment URL 會依據 SegmentTemplate
 5. [Usages of DASH for rich media services](http://dl.acm.org/citation.cfm?id=1943587)
 6. [Dynamic adaptive HTTP streaming of live content](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5986186&tag=1)
 7. [The MPEG-DASH Standard for Multimedia Streaming Over the Internet](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6077864)
-8. http://polyu.academia.edu/RickyKPMok/Papers/1161278/QDASH_A_QoE-aware_DASH_system
+8. [QDASH: A QoE-aware DASH system](http://polyu.academia.edu/RickyKPMok/Papers/1161278/QDASH_A_QoE-aware_DASH_system)
 
 
 ## HLS
