@@ -29,7 +29,7 @@ Adaptive HTTP Streaming 簡介
    [The lastest MPEG-DASH specification \(ISO/IEC DIS 23009-1:2\)](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=57623)   
    [The ISO Base Media File Format specification \(ISO/IEC 14496-12\)](http://www.iso.org/iso/catalogue_detail?csnumber=51533)   
    [The Common Encryption specification \(ISO.IEC 23001-7\)](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=60398)
-* IETF: HTTP Live Streaming  \[[draft-pantos-http-live-streaming][]\]
+* IETF: HTTP Live Streaming [草案][draft-pantos-http-live-streaming]
 
 相關文章
 
@@ -39,7 +39,7 @@ Adaptive HTTP Streaming 簡介
 4. [Adaptive HTTP Streaming Standardization ](http://www.w3.org/2010/11/web-and-tv/slides/microsoft-john-simmons.pdf)
 5. [Video Delivery in HTTP](http://www.roman10.net/video-delivery-in-http)
 
-## MPEG DASH
+## ISO標準: MPEG DASH
 
 Overview
 
@@ -51,7 +51,7 @@ Overview
 ![DASH Segment Indexing](http://image.slidesharecdn.com/webmontag-dash-110503041342-phpapp01/95/slide-14-728.jpg?1304414085)   
 
 MPEG DASH的推廣組織 http://dashpg.com, 其中的成員有: Microsoft, Adobe, ... 等等   
-但是 Apple 不在推廣小組中, 它有自己的標準\[[draft-pantos-http-live-streaming][]\]
+但是 Apple 不在推廣小組中, 它有自己的[標準][draft-pantos-http-live-streaming]
 
 相關文章
 
@@ -95,7 +95,8 @@ MPEG DASH的推廣組織 http://dashpg.com, 其中的成員有: Microsoft, Adobe
 
    Mozilla firefox only plan to support DASH (WebM)   
    [Mozilla adds DASH support (WebM) based on libdash](http://www-itec.uni-klu.ac.at/dash/?p=833)   
-   https://wiki.mozilla.org/Platform/Roadmap \[[mozilla-bug702122][]\]\[[mozilla-bug734546][]\]
+   https://wiki.mozilla.org/Platform/Roadmap   
+   相關討論 \[[mozilla-bug702122][]\] \[[mozilla-bug734546][]\]
    
    [mozilla-bug702122]: https://bugzilla.mozilla.org/show_bug.cgi?id=702122
    [mozilla-bug734546]: https://bugzilla.mozilla.org/show_bug.cgi?id=734546
@@ -141,7 +142,9 @@ MPD 的格式為 Dynamic 是指 MPD 中的 Segment URL 會依據 SegmentTemplate
 其封裝的格式為 ISO BMFF Live, 參考[範例](http://download.tsi.telecom-paristech.fr/gpac/DASH_CONFORMANCE/TelecomParisTech/mp4-live/mp4-live-mpd-V-NBS.mpd)
 
 1. [First Live MPEG-DASH Large Scale Demonstration](http://dashif.org/first-live-mpeg-dash-large-scale-demonstration-2/) 使用 DASH Profile: Live
-2. MPD Type 為 Dynamic, GPAC 的 MP4Box 支援問題\[[dash-profile-live][]\]\[[dash-mpd-dynamic][]\]
+2. GPAC 的 MP4Box 支援問題:   
+   DASH Live Profile \[[dash-profile-live][]\]   
+   MPD Type 為 Dynamic \[[dash-mpd-dynamic][]\]
 
 [dash-profile-live]: http://sourceforge.net/projects/gpac/forums/forum/327349/topic/5116440
 "MPEG Dash: Adding support for MPD.Location"
@@ -183,12 +186,12 @@ MPEG DASH 推廣組織提供的[工具](http://dashif.org/demos/)
 8. [QDASH: A QoE-aware DASH system](http://polyu.academia.edu/RickyKPMok/Papers/1161278/QDASH_A_QoE-aware_DASH_system)
 
 
-## HLS
+## IETF標準: HTTP Live Streaming
+
+[標準草案][draft-pantos-http-live-streaming]
 
 1. http://en.wikipedia.org/wiki/HTTP_Live_Streaming
-2. http://tools.ietf.org/html/draft-pantos-http-live-streaming-10
-3. http://www-itec.uni-klu.ac.at/dash/?page_id=282
-4. http://www.php-oa.com/2010/12/10/http-live-streaming-hls.html
+2. http://www.php-oa.com/2010/12/10/http-live-streaming-hls.html
 
 ## Others
 
