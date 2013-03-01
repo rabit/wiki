@@ -161,7 +161,7 @@ MPD 的格式為 Dynamic 是指 MPD 中的 Segment URL 會依據 SegmentTemplate
 
 MPEG DASH 推廣組織提供的[工具](http://dashif.org/demos/)
 
-1. [libdash](http://www.bitmovin.net/libdash/)
+1. [libdash](http://www.bitmovin.net/libdash/), [簡介投影片](http://www.slideshare.net/schellkenig/libdash-20)
 2. [DASH-JS](http://www-itec.uni-klu.ac.at/dash/?page_id=746)
 3. [MPD Validator](http://www-itec.uni-klu.ac.at/dash/?page_id=605)
 4. [DASHEncoder](http://www-itec.uni-klu.ac.at/dash/?page_id=282)
