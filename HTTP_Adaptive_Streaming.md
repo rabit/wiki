@@ -1,4 +1,4 @@
-# Adaptive HTTP Streaming
+# HTTP Adaptive Streaming
 
 ## 現況
 
@@ -174,7 +174,8 @@ MPEG DASH 推廣組織提供的[工具](http://dashif.org/demos/)
 
 ### MPEG DASH for H.264 
 
-[Guidelines for Implementation: DASH264 Interoperability Points](http://dashif.org/guidelines/DASH264-base-v09.pdf)
+[Guidelines for Implementation: DASH264 Interoperability Points](http://dashif.org/guidelines/DASH264-base-v09.pdf)   
+[Building a Dash-264 Player](http://www.slideshare.net/jefftapper/dash-in-flash)
 
 ### 相關論文
 
