@@ -169,7 +169,7 @@ MPEG DASH 推廣組織提供的[工具](http://dashif.org/demos/)
 
 ### MPEG DASH for H.264 
 
-
+[Guidelines for Implementation: DASH264 Interoperability Points](http://dashif.org/guidelines/DASH264-base-v09.pdf)
 
 ### 相關論文
 
@@ -192,11 +192,11 @@ MPEG DASH 推廣組織提供的[工具](http://dashif.org/demos/)
 
 ## Others
 
-1. http://www.html5rocks.com/en/tutorials/webgl/typed_arrays/?redirect_from_locale=pt
+1. http://multimediacommunication.blogspot.tw/2010/05/http-streaming-of-mpeg-media.html
 2. http://sourceforge.net/apps/trac/matroska/wiki/DASH_Profile
 3. http://sourceforge.net/projects/gpac/forums/forum/327349/topic/5116440
-4. 
+4. http://sourceforge.net/apps/mediawiki/osmf.adobe/index.php?title=Customizing_HTTP_Dynamic_Streaming
 5. http://en.wikipedia.org/wiki/Helix_Universal_Server
 6. https://github.com/DDVTECH/mistlib
-7. http://sourceforge.net/apps/mediawiki/osmf.adobe/index.php?title=Customizing_HTTP_Dynamic_Streaming
+7. http://www.html5rocks.com/en/tutorials/webgl/typed_arrays/?redirect_from_locale=pt
 
