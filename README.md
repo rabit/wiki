@@ -2,5 +2,5 @@
 
 ## 目錄
 
-1. [Adaptive HTTP Streaming](/Adaptive_HTTP_Streaming.md/)
+1. [HTTP Adaptive Streaming](/HTTP_Adaptive_Streaming.md/)
 
