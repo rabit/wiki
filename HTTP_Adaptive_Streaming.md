@@ -87,7 +87,7 @@ MPEG DASH的推廣組織 http://dashif.org, 其中的成員有: Microsoft, Adobe
    "Chrome Support MPEG-DASH"
 
    [MPEG-DASH support in Google Chrome](http://gpac.wp.mines-telecom.fr/2012/08/23/mpeg-dash-support-in-google-chrome)   
-   [ASH-JS – A JavaScript- and WebM-based DASH library for Google Chrome](http://www-itec.uni-klu.ac.at/dash/?page_id=746)
+   [DASH-JS – A JavaScript- and WebM-based DASH library for Google Chrome](http://www-itec.uni-klu.ac.at/dash/?page_id=746)
 
 2. Opera
  
@@ -114,21 +114,16 @@ MPEG DASH的推廣組織 http://dashif.org, 其中的成員有: Microsoft, Adobe
    **gstreamer**   
    https://bugzilla.gnome.org/show_bug.cgi?id=675625
 
-   **WebM adaptive streaming**   
-   https://groups.google.com/a/webmproject.org/group/webm-discuss/browse_thread/thread/7d2d1faeb2832b94   
-   [Instructions to Playback a WebM DASH Presentation](https://sites.google.com/a/webmproject.org/wiki/adaptive-streaming/instructions-to-playback-a-webm-dash-presentation)
-
 ### HTML5 與MPEG DASH相關的標準
 
 MediaSource Extensions API
 
-1. http://updates.html5rocks.com/2011/11/Stream-video-using-the-MediaSource-API
-2. http://html5-demos.appspot.com/static/media-source.html
-3. https://dvcs.w3.org/hg/html-media/raw-file/tip/media-source/media-source.html
-4. http://html5-mediasource-api.googlecode.com/svn/tags/0.4/draft-spec/mediasource-draft-spec.html
+1. [W3C Media Source Extensions](https://dvcs.w3.org/hg/html-media/raw-file/tip/media-source/media-source.html)
+2. [Draft Proposal for Media Source Extensions](http://html5-mediasource-api.googlecode.com/svn/tags/0.4/draft-spec/mediasource-draft-spec.html)
+3. http://updates.html5rocks.com/2011/11/Stream-video-using-the-MediaSource-API
+4. http://html5-demos.appspot.com/static/media-source.html
 5. http://stackoverflow.com/questions/9316859/mediasource-api-and-mp4
 6. http://yt-dash-mse-test.commondatastorage.googleapis.com/unit-tests/links.html
-7. http://www.ioncannon.net/utilities/1515/segmenting-webm-video-and-the-mediasource-api/
 
 WebSocket + getUserMedia API 
 
@@ -159,8 +154,7 @@ MPD 的格式為 Dynamic 是指 MPD 中的 Segment URL 會依據 SegmentTemplate
 1. http://dash-mse-test.appspot.com/
 2. http://www-itec.uni-klu.ac.at/dash/?page_id=1097
 3. http://lists.w3.org/Archives/Public/public-web-and-tv/2012May/0014.html
-4. http://wiki.webmproject.org/adaptive-streaming/instructions-to-playback-a-webm-dash-presentation
-5. GPAC 提供的各種 MPEG DASH Sequences [http://gpac.wp.mines-telecom.fr/2012/02/23/dash-sequences/](http://gpac.wp.mines-telecom.fr/2012/02/23/dash-sequences/)
+4. GPAC 提供的各種 MPEG DASH Sequences [http://gpac.wp.mines-telecom.fr/2012/02/23/dash-sequences/](http://gpac.wp.mines-telecom.fr/2012/02/23/dash-sequences/)
 
 ### 相關工具
 
@@ -172,10 +166,19 @@ MPEG DASH 推廣組織提供的[工具](http://dashif.org/demos/)
 4. [DASHEncoder](http://www-itec.uni-klu.ac.at/dash/?page_id=282)
 5. [MP4BOX](http://gpac.wp.mines-telecom.fr/player/features/dash/)
 
-### MPEG DASH for H.264 
+### MPEG DASH 對各種壓縮格式的支援
+
+H.264 
 
 [Guidelines for Implementation: DASH264 Interoperability Points](http://dashif.org/guidelines/DASH264-base-v09.pdf)   
 [Building a Dash-264 Player](http://www.slideshare.net/jefftapper/dash-in-flash)
+
+WebM
+
+[WebM Dash Specification](http://wiki.webmproject.org/adaptive-streaming/webm-dash-specification)   
+[Instructions to Playback a WebM DASH Presentation](http://wiki.webmproject.org/adaptive-streaming/instructions-to-playback-a-webm-dash-presentation)   
+[Segmenting WebM Video and the MediaSource API](http://www.ioncannon.net/utilities/1515/segmenting-webm-video-and-the-mediasource-api/)   
+[WebM adaptive streaming 相關討論](https://groups.google.com/a/webmproject.org/group/webm-discuss/browse_thread/thread/7d2d1faeb2832b94)
 
 ### 相關論文
 
