@@ -4,6 +4,7 @@
 
 1. [ONVIF API 2.0 快速查詢表格](http://albert-oma.blogspot.tw/2012/06/onvif-api.html)
 2. [RTP閱讀心得整理](http://albert-oma.blogspot.tw/2012/05/rtp.html)
+3. [ONVIF對RTSP的擴充](http://albert-oma.blogspot.tw/2012/06/onvif-core-streaming.html)
 
 ## 相關計畫
 
