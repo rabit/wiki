@@ -2,7 +2,7 @@
 
 ## Specification 
 
-1. HEVC text specification draft - [draft 10](http://phenix.it-sudparis.eu/jct/doc_end_user/current_document.php?id=7243) [Old verstion](http://phenix.it-sudparis.eu/jct/doc_end_user/all_meeting.php)
+1. HEVC text specification draft - [draft 10](http://phenix.it-sudparis.eu/jct/doc_end_user/current_document.php?id=7243), [Old verstion](http://phenix.it-sudparis.eu/jct/doc_end_user/all_meeting.php)
 2. [RTP Payload Format draft for HEVC](http://tools.ietf.org/id/draft-schierl-payload-rtp-h265-00.txt)
 
 ## Introduction
@@ -15,7 +15,7 @@
 ## Related Presentations
 
 1. [What is H.265 HEVC video codec? H.264 vs H.265 video codec.](http://www.youtube.com/watch?v=rGifAEK7iQc)
-2. [HEVC HM-5.2rc1 slides](http://www.powercam.cc/home.php?user=vclab&f=slide&v=list&fid=10606)
+2. [HEVC Code Tracing](http://www.powercam.cc/home.php?user=vclab&f=slide&v=list&fid=10606)
 
 ## Related Papers
 
@@ -33,7 +33,7 @@
 2. [HM Developer Guidlines](http://phenix.int-evry.fr/jct/doc_end_user/documents/8_San%20Jose/wg11/JCTVC-H1001-v1.zip)
 3. [HM Software Manual](https://hevc.hhi.fraunhofer.de/svn/svn_HEVCSoftware/branches/HM-9.2-dev/doc/software-manual.pdf)
 4. [HM Doxygen Generated Document](http://hevc.hhi.fraunhofer.de/HM-doc/)
-5. [Tracing HM Source Code](http://blog.csdn.net/feixiang_john/article/details/7876227)
+5. [HM Source Code Tracing](http://blog.csdn.net/feixiang_john/article/details/7876227)
 
 ### Open Source Implementation
 
