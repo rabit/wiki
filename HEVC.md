@@ -49,7 +49,7 @@
 
 ## Further Information
 
-1. http://hevc.hhi.fraunhofer.de/
+1. http://hevc.info/
 2. http://blog.csdn.net/xiaoyi247
 3. http://www.h265.net/
 
