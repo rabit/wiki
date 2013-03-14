@@ -16,12 +16,18 @@
 - http://www.programmer.com.cn/13730/
 - http://blog.codingnow.com/2010/11/go_prime.html
 - http://qing.weibo.com/tj/88ca09aa33002ele.html
+- http://my.oschina.net/qinhui99/blog/82378
 
 ## 資源
 
 官方網站: http://golang.org
 
 ### 文件
+
+- http://golang/doc
+- http://golang/ref
+- https://code.google.com/p/go-wiki/w/list
+- https://code.google.com/p/golang-china/
 
 ### 套件
 
@@ -31,4 +37,23 @@
 ### 討論區
 
 - http://golangd.com/
+- https://groups.google.com/forum/?fromgroups#!forum/golang-nuts
+- http://blog.golang.tw/
+
+## 心得
+
+### 部落格
+
+- http://beego.me/
+
+### 單篇文章
+
+- http://monnand.me/p/golang-map-bench/zhCN
+- http://blog.csdn.net/aura521521/article/details/8365330
+- http://beego.me/golang/golang%20import%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8/
+- http://www.mikespook.com/2012/07/%E5%9C%A8-golang-%E4%B8%AD%E7%94%A8%E5%90%8D%E5%AD%97%E8%B0%83%E7%94%A8%E5%87%BD%E6%95%B0/
+
+### 範例
+
+- https://github.com/pantao/golang-examples
 
