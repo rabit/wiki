@@ -6,3 +6,4 @@
 2. [OpenStack 筆記](/OpenStack.md/)
 3. [ONVIF 筆記](/ONVIF.md/)
 4. [HEVC/H.265 筆記](/HEVC.md/)
+5. [Go 語言筆記](/Go.md/)
