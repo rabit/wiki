@@ -68,4 +68,5 @@
 ### 範例
 
 - https://github.com/pantao/golang-examples
+- 我寫的 A tour of Go 的[習題解答](https://gist.github.com/rabit/5142229)
 
