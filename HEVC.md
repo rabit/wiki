@@ -41,6 +41,7 @@
 2. [openHEVC](http://github.com/OpenHEVC/openHEVC) - Integration of the C wrapper to HM 8.0 and ffmpeg
 3. [thevc](https://github.com/chenm001/thevc) - Tiny HEVC Baseline Codec 
 4. Add HEVC decoder support to libav: [patch](http://www.google-melange.com/gsoc/project/google/gsoc2012/smarter/8001)
+5. [GoHM](https://github.com/rainliu/GoHM) - HEVC HM Video Codec in Go
 
 ## Analyzer
 
