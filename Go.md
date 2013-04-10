@@ -13,7 +13,6 @@
 ## 簡報與投影片
 
 - http://slideshare.dn.qbox.me/Golang-Programming-v2.0.0.pdf
-- 
 
 ## 各家對 go 語言的看法
 
