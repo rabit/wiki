@@ -13,6 +13,7 @@
 ## 簡報與投影片
 
 - http://slideshare.dn.qbox.me/Golang-Programming-v2.0.0.pdf
+- http://ferrari.github.io/2013/02/golang-tech-talk/
 
 ## 各家對 go 語言的看法
 
@@ -27,6 +28,8 @@
 - 官方網站: http://golang.org
 - https://github.com/wonderfo/wonderfogo/wiki
 - http://go-lang.cat-v.org
+- https://sites.google.com/site/wisdomfishgo/
+- http://blog.golang.tw/
 
 ### 文件
 
@@ -34,6 +37,7 @@
 - http://golang/ref
 - https://code.google.com/p/go-wiki/w/list
 - https://code.google.com/p/golang-china/
+- https://github.com/alco/gostart
 
 ### 套件
 
@@ -41,14 +45,19 @@
 - https://code.google.com/p/go-wiki/wiki/Projects
 - https://github.com/grd/g5t
 
+### 工具
+
+- http://blog.hsatac.net/2012/09/golang-ides/
+- https://github.com/nsf/gocode
+
 #### 待評估套件
 
 - https://github.com/skynetservices/skynet   
   簡介[投影片](http://www.slideshare.net/mikespook/ss-15720814)   
 - NAT Traversal   
   https://github.com/jackpal/Taipei-Torrent
-  https://code.google.com/p/go-nat-pmp/
-
+  https://code.google.com/p/go-nat-pmp/   
+- https://github.com/braintree/manners
 
 ### 討論區
 
@@ -73,9 +82,18 @@
 - http://www.cnblogs.com/yjf512/archive/2013/02/28/2937261.html
 - http://dave.cheney.net/tag/go-golang-raspberrypi
 - http://coldnew.github.io/blog/2013/03/09_4f769ab00cd8e25f8332582fd3c5fd18.html
+- http://rritw.com/a/bianchengyuyan/C__/20130329/331783.html
+- http://ya790206dot1.blogspot.tw/2013/02/golang-panic-recover.html
+- http://swind.code-life.info/posts/goroutine-note-1.html
+- http://blog.golang.org/2011/06/profiling-go-programs.html
 
 ### 範例
 
 - https://github.com/pantao/golang-examples
 - 我寫的 A tour of Go 的[習題解答](https://gist.github.com/rabit/5142229)
+- https://gobyexample.com/
+
+### 應用實例
+
+- http://ferrari.github.io/2013/02/canonical-juju-golang/
 
